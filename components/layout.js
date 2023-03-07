@@ -1,11 +1,18 @@
-import Header from './Header';
-import Footer from './Footer';
+import dynamic from 'next/dynamic';
+
+const DynamicHeader = dynamic(() => import('./Header'), {
+  loading: () => <p>loading...</p>,
+});
+
+const DynamicFooter = dynamic(() => import('./Footer'), {
+  loading: () => <p>loading...</p>,
+});
 export default function Layout({ children }) {
   return (
     <>
-      <Header />
+      <DynamicHeader />
       <main>{children}</main>
-      <Footer />
+      <DynamicFooter />
     </>
   );
 }

@@ -5,3 +5,23 @@
   align-items: center;
   padding: 6rem;
 }
+
+.navbar {
+  display: flex;
+  align-items: center;
+  text-decoration: none;
+}
+
+.li {
+  flex: 1;
+  list-style-type: none;
+  text-decoration: none;
+}
+
+.li > a {
+  text-decoration: none;
+}
+
+.flex {
+  display: flex;
+}
