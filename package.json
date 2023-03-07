@@ -2,17 +2,34 @@
   "name": "nextjs_project",
   "version": "0.1.0",
   "private": true,
+  "main": "index.js",
   "scripts": {
-    "dev": "next dev",
-    "build": "next build",
+    "dev": "node backend/",
+    "build": "next build frontend/",
     "start": "next start",
     "lint": "next lint"
   },
   "dependencies": {
-    "eslint": "8.35.0",
-    "eslint-config-next": "13.2.3",
-    "next": "13.2.3",
-    "react": "18.2.0",
-    "react-dom": "18.2.0"
+    "@mdx-js/loader": "^2.3.0",
+    "@next/mdx": "^13.3.1",
+    "@reduxjs/toolkit": "^1.9.5",
+    "axios": "^0.21.2",
+    "bcryptjs": "^2.4.3",
+    "cookie-parser": "^1.4.5",
+    "dotenv": "^8.2.0",
+    "express": "^4.17.1",
+    "js-cookie": "^3.0.5",
+    "jsonwebtoken": "^8.5.1",
+    "mongoose": "^5.9.25",
+    "next": "^12.1.6",
+    "next-redux-wrapper": "^8.1.0",
+    "passport": "^0.4.1",
+    "passport-jwt": "^4.0.0",
+    "passport-local": "^1.0.0",
+    "react": "^17.0.2",
+    "react-dom": "^17.0.2",
+    "react-redux": "^8.0.5",
+    "redux": "^4.0.5",
+    "redux-thunk": "^2.3.0"
   }
 }
