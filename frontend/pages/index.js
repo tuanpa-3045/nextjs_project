@@ -24,19 +24,6 @@ export default function Home() {
         </li>
       </ul>
       <h1 className={styles.main}> hello </h1>
-      <div className={styles.flex}>
-        <form action="/api/hello" method="post">
-          <label>
-            First name:
-            <input type="text" name="first" />
-          </label>
-          <label>
-            Last name:
-            <input type="text" name="last" />
-          </label>
-          <button type="submit">Submit</button>
-        </form>
-      </div>
       <button onClick={click}>Click here</button>
       <Image src={ScrPicture} alt="picture" width={200} height={200} priority />
     </Layout>
