@@ -1,15 +1,14 @@
 {
   "../components/layout.js -> ./Footer": {
-    "id": 2076,
+    "id": "../components/layout.js -> ./Footer",
     "files": [
-      "static/chunks/76.65235be345d393f9.js"
+      "static/chunks/components_Footer_js.js"
     ]
   },
   "../components/layout.js -> ./Header": {
-    "id": 4848,
+    "id": "../components/layout.js -> ./Header",
     "files": [
-      "static/chunks/579-6f2627fde8b7af14.js",
-      "static/chunks/848.b2b7c8ce3612b774.js"
+      "static/chunks/components_Header_js.js"
     ]
   }
 }

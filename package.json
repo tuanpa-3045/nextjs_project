@@ -4,8 +4,8 @@
   "private": true,
   "main": "index.js",
   "scripts": {
-    "dev": "node backend/",
-    "build": "next build frontend/",
+    "dev-be": "node backend/",
+    "dev-fe": "next dev frontend/",
     "start": "next start",
     "lint": "next lint"
   },
