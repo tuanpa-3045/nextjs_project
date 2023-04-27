@@ -1,12 +1,12 @@
 {
-  "../components/layout.js -> ./Footer": {
-    "id": "../components/layout.js -> ./Footer",
+  "../components/Layout.js -> ./Footer": {
+    "id": "../components/Layout.js -> ./Footer",
     "files": [
       "static/chunks/components_Footer_js.js"
     ]
   },
-  "../components/layout.js -> ./Header": {
-    "id": "../components/layout.js -> ./Header",
+  "../components/Layout.js -> ./Header": {
+    "id": "../components/Layout.js -> ./Header",
     "files": [
       "static/chunks/components_Header_js.js"
     ]

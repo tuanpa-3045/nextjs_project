@@ -3,7 +3,7 @@ import { getCookie } from '../utils/cookie';
 
 export default function (ctx) {
   if (ctx.req) {
-    if (ctx.req.header.cookie) {
+    if (ctx.req.header?.cookie) {
       // ctx.store.dispatch(reauthenticate(getCookie('token', ctx.req)));
     }
   } else {

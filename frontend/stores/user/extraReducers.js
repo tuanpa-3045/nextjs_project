@@ -1,6 +1,6 @@
-import { login } from './thunks';
+import { login, register } from './thunks';
 
-const getAuth = {
+const loginAuth = {
   [login.pending]: (state, action) => {
     state.loading = true;
   },
@@ -13,6 +13,20 @@ const getAuth = {
   },
 };
 
+const registerAuth = {
+  [register.pending]: (state, action) => {
+    state.loading = true;
+  },
+  [register.fulfilled]: (state, action) => {
+    state.loading = false;
+    state.token = action.payload;
+  },
+  [register.rejected]: (state, action) => {
+    state.loading = false;
+  },
+};
+
 export default {
-  ...getAuth,
+  ...loginAuth,
+  ...registerAuth,
 }
